@@ -1,0 +1,131 @@
+header img {
+    height: 75px;
+    margin-left: 40px;
+    
+}
+
+body {
+    height: 125vh;
+    background-color: var(--background-color);
+    font-family: 'ExoLight';
+    margin-top: 80px;
+    margin-left: 45px;
+    padding: 30px;
+    color: var(--text-color);
+}
+
+main {
+    color: var(--text-color);
+}
+
+h1 {
+    font-family: 'ExoLight';
+}
+
+.keyword {
+    color: #fca311;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+/* Navigation Bar */
+
+header {
+    background-color: var(--background-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+/* Hover Effect */
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all .5s;
+}
+
+nav.stroke ul li a,
+nav.fill ul li a {
+    position: relative;
+}
+
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 10;
+    margin: 0px;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: var(--text-color);
+    height: 1px;
+}
+
+nav.stroke ul li a:hover:after {
+    width: 100%;
+}
+
+nav.fill ul li a {
+    transition: all 2s;
+}
+
+nav.fill ul li a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+}
+
+nav.fill ul li a:hover {
+    color: #fff;
+    z-index: 1;
+}
+
+nav.fill ul li a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: ExoLight;
+    src: url(/fonts/Exo2-Light.otf);
+}
+
+@font-face {
+    font-family: ExoBold;
+    src: url(/fonts/Exo2-Bold.otf);
+}
+
+/* Custom Variables */
+
+:root {
+--text-color: #fff;
+--background-color: #222;
+}
