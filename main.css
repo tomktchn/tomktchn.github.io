@@ -23,7 +23,7 @@ h1 {
     font-style: normal;
     font-size: 60px;
     vertical-align: middle;
-    padding: 50px 0px 150px 150px;
+    padding: 1em 0 1em 2.5em;
     width: auto;
     background-color: #FDFFFC;
 
@@ -42,7 +42,7 @@ p {
     font-weight: 300;
     display: inline-block;
     font-size: 20px;
-    padding: 50px 0px 50px 150px;
+    padding: 20px 0px 40px 150px;
     position: static;
     margin-right: 150px;
 
@@ -76,9 +76,9 @@ l {
 /* Menu-Bar */
 
 .menubar{
-    height: 100px;
+    height: 32px;
     width: auto;
-    padding: 80px 150px 20px 150px;
+    padding: 80px 150px 0px 150px;
     text-align: right;
     background-color: #FDFFFC;
     
@@ -180,16 +180,19 @@ l {
 
 /* Offsets */
 
-.header50px{
+ .header50px{
     margin-top: 50px;
-}
+} 
 
 /* Header Backgrounds */
 
-.articles-header-image{
-    background-image: url;
-    background-size: cover;
-    
+ /* .blog-header-image{
+    background-color: #F8961E;
+    width: auto;
+    height: inherit;
+    border-radius: 5px;
+     
+    *?
 }
 
     
