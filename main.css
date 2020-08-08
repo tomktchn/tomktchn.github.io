@@ -26,7 +26,7 @@ h1 {
     vertical-align: middle;
     padding: 50px 0px 150px 150px;
     width: auto;
-    background-color: #222;
+    background-color: #FDFFFC;
 
 }
 
@@ -118,6 +118,7 @@ l {
     font-weight: 500;
     line-height: 1.5;
     background-color: #FDFFFC;
+    color: #F8961E;
     height: 28px;
     vertical-align: middle;
     padding: 3px 0px 0px 0px;
