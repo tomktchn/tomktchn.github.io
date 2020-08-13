@@ -3,6 +3,7 @@
     padding:0;
     background-color: #FDFFFC;
     cursor: default;
+    color: var(--text-color);
     
 }
 
@@ -28,7 +29,6 @@ h1 {
     background-color: #FDFFFC;
 
 }
-
 h2 {
     text-decoration: none;
     line-height: 1.5;
@@ -47,7 +47,6 @@ p {
     margin-right: 150px;
 
 }
-
 p2 {
     font-weight: 300;
     display: inline-block;
@@ -59,9 +58,8 @@ a {
     text-decoration: none;
     background-color: transparent;
 }
-
 a:hover{
-    color: #70A37F;
+    color: #F8961E;
     cursor: pointer;
 }
 
@@ -83,17 +81,14 @@ l {
     background-color: #FDFFFC;
     
 }
-
 .menubar ul{
     background-color: #FDFFFC;
 }
-
 .menubar ul li {
     display: inline-block;
     background-color: #FDFFFC;
     height: 28px;
 }
-
 .menubar ul li a {
     text-decoration: none;
     line-height: 1.5;
@@ -101,12 +96,10 @@ l {
     vertical-align: middle;
     font-weight: 500;
     background-color: #FDFFFC;
-    color: #222;
     
     
 
 }
-
 .menubar ul li a:hover {
     color: #F8961E;
     cursor: pointer;
@@ -118,52 +111,9 @@ l {
     font-weight: 500;
     line-height: 1.5;
     background-color: #FDFFFC;
-    color: #222;
     height: 28px;
     vertical-align: middle;
     padding: 3px 0px 0px 0px;
-}
-
-
-/* Projects Grid */
-
-.projects-grid-container {
-    display: grid;
-    grid-template-columns: 50px 50px 50px 50px 50px;
-    grid-column-gap: 300px;
-    background-color: transparent;
-    margin-left: 150px;
-    margin-top: 50px;
-    margin-right: 150px;
-}
-
-.projects-unused {
-    display: block;
-    background: #545454;
-    cursor: not-allowed;
-    font-size: 15px;
-    height: 300px;
-    width: 200px;
-    padding: 20px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.projects-used {
-    display: block;
-    background-color: #E0E2DB;
-    cursor: pointer;
-    font-size: 15px;
-    height: 300px;
-    width: 200px;
-    padding: 20px;
-    text-align: center;
-    border-radius: 5px;
-    
-}
-
-.projects-used:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /* Copyright */
@@ -192,7 +142,14 @@ l {
     height: inherit;
     border-radius: 5px;
      
-    *?
+    
+} */
+
+/* Custom Variables */
+
+:root {
+--text-color: #777;
+--background-color: #222;
 }
 
     
