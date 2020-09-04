@@ -24,7 +24,7 @@ h1 {
     font-style: normal;
     font-size: 60px;
     vertical-align: middle;
-    padding: 1em 0 1em 2.5em;
+    padding: 70px 0 70px 150px;
     width: auto;
     background-color: #FDFFFC;
 
@@ -34,7 +34,7 @@ h2 {
     line-height: 1.5;
     padding: 0px 0px 0px 150px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 20px
 
 }
 
