@@ -13,7 +13,7 @@
 h1 {
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-top: 2vw;
+    margin-top: 3vw;
     font-weight: 600;
     font-size: 3vw;
 
@@ -22,7 +22,7 @@ h1 {
 h2 {
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-top: 2vw;
+    margin-top: 3vw;
     font-weight: 500;
     font-size: 1vw;
 }
@@ -87,7 +87,7 @@ l {
 /* Copyright */
 
 .copyright {
-    font-size: 1vw;
+    font-size: 0.75vw;
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 2vw;
