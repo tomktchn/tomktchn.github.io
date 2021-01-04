@@ -1,62 +1,20 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #FDFFFC;
+    background-color: #F1F6FA; /* #FDFFFC */
     cursor: default;
-    color: #777;
+    color: #777; /* #777 */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-}
-
-/* Text */
-
-h1 {
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 3vw;
-    font-weight: 600;
-    font-size: 3vw;
-
-}
-
-h2 {
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 3vw;
-    font-weight: 500;
-    font-size: 1vw;
-}
-
-p {
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 1vw;
-    font-weight: 300;
-    font-size: 1vw;
-
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    color: #F8961E;
-    cursor: pointer;
-}
-
-l {
-    font-weight: 500;
-    font-size: 1vw;
-    float: left;
+    
+    
 }
 
 /* Menu-Bar */
 
 .menubar {
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 4vw;
+    margin-left: var(--ml);
+    margin-right: var(--mr);
+    margin-top: 3vw;
     height: 1vw;
     text-align: right;
 
@@ -84,17 +42,110 @@ l {
 
 }
 
+.title_button:hover{
+    color: #777;
+}
+
+/* Text */
+
+h1 {
+    margin-left: var(--ml);
+    margin-right: var(--mr);
+    margin-top: 3vw;
+    font-weight: 600;
+    font-size: 3vw;
+
+}
+
+h2 {
+    margin-left: var(--ml);
+    margin-right: var(--mr);
+    margin-top: 3vw;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+p {
+    margin-left: var(--ml);
+    margin-right: var(--mr);
+    margin-top: 1vw;
+    font-weight: 300;
+    font-size: 1vw;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F8961E;
+    cursor: pointer;
+}
+
+l {
+    font-weight: 500;
+    font-size: 1vw;
+    float: left;
+}
+
+/* About - Custom Classes */
+
+.home_header{
+    margin-left: var(--ml);
+    margin-right: var(--mr);
+    text-align: center;
+    margin-top: 8vw;
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+.home_desc {   
+    margin-left: var(--ml);
+    margin-right: var(--mr);
+    text-align: center;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-weight: 300;
+    font-size: 1vw;
+}
+
+.home_button {
+    margin-left: 42vw;
+    margin-right: 42vw;
+    padding: 15px;
+    border-style: none;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 1vw;
+    background-image: linear-gradient(to right, #FFAA78 , #FE7368);
+    box-shadow: 0px 6px 10px #777;
+    display: grid;
+    justify-content: center;
+    color: #F1F6FA;
+}
+
+.home_button:hover {
+    color: #777;
+}
+
 /* Copyright */
 
 .copyright {
     font-size: 0.75vw;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    margin-top: 2vw;
     text-align: center;
-
+    position: fixed;
+    margin-bottom: 2vw;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Custom Variables */
 
-:root {}
+:root {
+    --ml: 5vw; /* Margin left */
+    --mr: 5vw; /* Margin right */
+}
+
