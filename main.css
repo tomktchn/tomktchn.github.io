@@ -120,10 +120,10 @@ l {
 }
 
 .home_button {
-    height: 20px;
-    width: 200px;
+    height: 1.3vw;
+    width: 13vw;
     margin-left: 42vw;
-    padding: 15px;
+    padding: 1vw;
     border-style: solid;
     text-align: center;
     border-radius: 5px;
