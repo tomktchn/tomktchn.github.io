@@ -1,12 +1,19 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #F1F6FA; /* #FDFFFC */
+    background-color: transparent;
+    /* #FDFFFC, F1F6FA */
     cursor: default;
-    color: #777; /* #777 */
+    color: #777;
+    /* #777 */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    
-    
+
+
+}
+
+.background {
+    background-image: url(images/background.jpg);
+    background-size: cover;
 }
 
 /* Menu-Bar */
@@ -37,12 +44,13 @@
 }
 
 .menubar ul li a:hover {
+    transition-duration: 0.6s;
     color: #F8961E;
     cursor: pointer;
 
 }
 
-.title_button:hover{
+.title_button:hover {
     color: #777;
 }
 
@@ -62,7 +70,7 @@ h2 {
     margin-right: var(--mr);
     margin-top: 3vw;
     font-weight: 500;
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 
 p {
@@ -70,7 +78,7 @@ p {
     margin-right: var(--mr);
     margin-top: 1vw;
     font-weight: 300;
-    font-size: 1vw;
+    font-size: 1.15vw;
 
 }
 
@@ -79,6 +87,7 @@ a {
 }
 
 a:hover {
+    transition-duration: 0.5s;
     color: #F8961E;
     cursor: pointer;
 }
@@ -89,54 +98,102 @@ l {
     float: left;
 }
 
-/* About - Custom Classes */
+/* Home - Custom Classes */
 
-.home_header{
+.home_header {
     margin-left: var(--ml);
     margin-right: var(--mr);
     text-align: center;
-    margin-top: 8vw;
+    margin-top: 16vw;
     font-weight: 600;
     font-size: 3vw;
 }
 
-.home_desc {   
+.home_desc {
     margin-left: var(--ml);
     margin-right: var(--mr);
     text-align: center;
     margin-top: 2vw;
     margin-bottom: 2vw;
     font-weight: 300;
-    font-size: 1vw;
+    font-size: 1.25vw;
 }
 
 .home_button {
     margin-left: 42vw;
     margin-right: 42vw;
     padding: 15px;
-    border-style: none;
+    border-style: solid;
     text-align: center;
-    border-radius: 25px;
+    border-radius: 5px;
     font-weight: 600;
     font-size: 1vw;
-    background-image: linear-gradient(to right, #FFAA78 , #FE7368);
-    box-shadow: 0px 6px 10px #777;
+    /* background-image: linear-gradient(to right, #FFAA78, #FE7368); */
+    background-color: transparent;
+    /* box-shadow: 0px 6px 10px #777; */
     display: grid;
     justify-content: center;
-    color: #F1F6FA;
+    color: #FFF;
+    border-color: #fff;
 }
 
 .home_button:hover {
+    transition-duration: 0.5s;
     color: #777;
+    background-color: #fff;
+}
+
+#hometextcolor {
+    color: #fff;
+}
+
+/* Projects - Custom Classes */
+
+.linked {
+    color: dodgerblue;
+}
+
+.project_box {
+    margin-left: var(--ml);
+    margin-right: var(--mr);
+    margin-top: 1vw;
+    padding: 25px;
+    border-style: none;
+    background-image: linear-gradient(to right, #FFAA78, #FE7368);
+    border-radius: 10px;
+    display: grid;
+    justify-content: left;
+    color: #F1F6FA;
+    font-size: 1.25vw;
+}
+
+.project_box:hover {
+    transition-duration: 0.5s;
+    color: #777;
+}
+
+.project_desc {
+    margin: 0;
+    border-style: none;
+    background-color: transparent;
+    justify-content: right;
+    color: #F1F6FA;
+    font-size: 1.25vw;
+}
+
+#inactive {
+    opacity: 0.6;
+    color: #777;
+    cursor: not-allowed;
 }
 
 /* Copyright */
 
 .copyright {
     font-size: 0.75vw;
+    margin-bottom: 2vw;
     text-align: center;
     position: fixed;
-    margin-bottom: 2vw;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -145,7 +202,10 @@ l {
 /* Custom Variables */
 
 :root {
-    --ml: 5vw; /* Margin left */
-    --mr: 5vw; /* Margin right */
+    --ml: 5vw;
+    /* Margin left */
+    --mr: 5vw;
+    /* Margin right */
 }
+
 
