@@ -4,10 +4,12 @@
     background-color: transparent;
     cursor: default;
     color: #777;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Dosis', sans-serif;
 
 
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap');
 
 /* Menu-Bar */
 
@@ -96,7 +98,9 @@ l {
 .home_background {
     background-image: url(images/background.jpg);
     background-size: cover;
-    background-size: 1450px auto;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
     
 }
 
