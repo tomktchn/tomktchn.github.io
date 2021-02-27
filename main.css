@@ -12,7 +12,8 @@ html {
 
 @font-face {
     font-family: BaseFont;
-    src: url(https://www.tomktchn.github.io/fonts/04b03.ttf);
+    src: url('04b03-webfont.woff2') format('woff2'),
+         url('04b03-webfont.woff') format('woff');
 }
 
 /* Font Styles */
