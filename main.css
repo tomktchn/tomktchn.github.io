@@ -12,7 +12,7 @@ html {
 
 @font-face {
     font-family: BaseFont;
-    src: url("fonts/04b03.ttf") format("truetype");
+    src: url("https://static.itch.io/fonts/04b03.woff2") format("woff2");
 }
 
 /* Font Styles */
