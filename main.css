@@ -1,214 +1,185 @@
+html {
+    background-image: url(images/chris-barbalis-BLst6qvhXQM-unsplash.jpg);
+    background-size: cover;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    background-color: transparent;
+    /* background-color: #454B66; */
     cursor: default;
     color: #777;
-    font-family: 'Dosis', sans-serif;
-
-
+    font-family: BaseFont;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap');
-
-/* Menu-Bar */
-
-.menubar {
-    margin-left: var(--ml);
-    margin-right: var(--mr);
-    margin-top: 3vw;
-    height: 1vw;
-    text-align: right;
-
+@font-face {
+    font-family: BaseFont;
+    src: url(fonts/04b03.ttf);
 }
 
-.menubar ul {}
-
-.menubar ul li {
-    display: inline-block;
-    height: 1vw;
-}
-
-.menubar ul li a {
-    text-decoration: none;
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
-    vertical-align: middle;
-    font-weight: 500;
-    font-size: 1vw;
-}
-
-.menubar ul li a:hover {
-    transition-duration: 0.6s;
-    color: #F8961E;
-    cursor: pointer;
-
-}
-
-.title_button:hover {
-    color: #777;
-}
-
-/* Text */
+/* Font Styles */
 
 h1 {
-    margin-left: var(--ml);
-    margin-right: var(--mr);
-    margin-top: 3vw;
-    font-weight: 600;
-    font-size: 3vw;
-
+    margin-top: 4vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-size: 28px;
 }
 
 h2 {
-    margin-left: var(--ml);
-    margin-right: var(--mr);
-    margin-top: 3vw;
-    font-weight: 500;
-    font-size: 1.2vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 p {
-    margin-left: var(--ml);
-    margin-right: var(--mr);
-    margin-top: 1vw;
-    font-weight: 300;
-    font-size: 1.15vw;
-
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-size: 18px
 }
 
-a {
-    text-decoration: none;
+.spacer-top {
+    margin-top: 4vw;
 }
 
-a:hover {
-    transition-duration: 0.5s;
-    color: #F8961E;
-    cursor: pointer;
-}
-
-l {
-    font-weight: 500;
-    font-size: 1vw;
-    float: left;
-}
-
-/* Home - Custom Classes */
-
-.home_background {
-    background-image: url(images/background.jpg);
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.landing-section {
+    margin-top: 20vw;
+    margin-right: 24vw;
     
 }
 
-.home_header {
-    margin-left: var(--ml);
-    margin-right: var(--mr);
-    text-align: center;
-    margin-top: 16vw;
-    font-weight: 600;
-    font-size: 3vw;
+/* Project Button */
+
+html {
+    border: 0;
+    margin: 0vw vw;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.home_desc {
-    margin-left: var(--ml);
-    margin-right: var(--mr);
-    text-align: center;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    font-weight: 300;
-    font-size: 1.25vw;
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
 }
 
-.home_button {
-    height: 1.3vw;
-    width: 13vw;
-    margin-left: 42vw;
-    padding: 1vw;
-    border-style: solid;
+b {
+    position: relative;
+    display: block;
+    font-family: BaseFont;
+    line-height: 1.15em;
+    margin-top: -1.15em;
+    top: 2.3em;
+    font-size: 0.67em;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    opacity: 0.75;
     text-align: center;
-    border-radius: 5px;
-    font-weight: 600;
-    font-size: 1vw;
-    background-color: transparent;
-    display: grid;
-    justify-content: center;
-    color: #FFF;
-    border-color: #fff;
 }
 
-.home_button:hover {
-    transition-duration: 0.5s;
+.button {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    margin-top: 1vw;
+    margin-left: 4vw
+}
+
+.button .bottom {
+    position: absolute;
+    left: 7px;
+    top: 7px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: block;
+    -webkit-transition: all .15s ease-out;
+    -moz-transition: all .15s ease-out;
+    -o-transition: all .15s ease-out;
+    transition: all .15s ease-out;
+}
+
+.button .top {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 24px 34px 22px 34px;
+    border: 2px solid #777;
+}
+
+.button .top .label {
+    font-family: BaseFont;
     color: #777;
+    font-size: 18px;
+    line-height: 110%;
+    letter-spacing: 2px;
+    text-align: center;
+    -webkit-transition: all .15s ease-out;
+    -moz-transition: all .15s ease-out;
+    -o-transition: all .15s ease-out;
+    transition: all .15s ease-out;
+}
+
+.button:hover .bottom {
+    left: 0;
+    top: 0;
     background-color: #fff;
 }
 
-#hometextcolor {
-    color: #fff;
-}
-
-/* Projects - Custom Classes */
-
-.project_box {
-    margin-left: var(--ml);
-    margin-right: var(--mr);
-    margin-top: 1vw;
-    padding: 25px;
-    border-style: none;
-    background-image: linear-gradient(to right, #FFAA78, #FE7368);
-    border-radius: 10px;
-    display: grid;
-    justify-content: left;
-    color: #F1F6FA;
-    font-size: 1.25vw;
-}
-
-.project_box:hover {
-    transition-duration: 0.5s;
+.button:hover .top .label {
     color: #777;
 }
 
-.project_desc {
-    margin: 0;
-    border-style: none;
-    background-color: transparent;
-    justify-content: right;
-    color: #F1F6FA;
-    font-size: 1.25vw;
+.button-border {
+    position: absolute;
+    background-color: #fff;
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
 }
 
-.linked {
-    color: dodgerblue;
+.button:hover .top .button-border-left,
+.button:hover .top .button-border-right {
+    height: calc(100% + 2px);
 }
 
-#inactive {
-    opacity: 0.6;
-    color: #777;
-    cursor: not-allowed;
+.button:hover .top .button-border-top,
+.button:hover .top .button-border-bottom {
+    width: calc(100% + 2px);
 }
 
-/* Copyright */
-
-.copyright {
-    font-size: 0.75vw;
-    margin-bottom: 2vw;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+.button-border-left {
+    left: -2px;
+    bottom: -2px;
+    width: 2px;
+    height: 0;
 }
 
-/* Custom Variables */
-
-:root {
-    --ml: 5vw;
-    /* Margin left */
-    --mr: 5vw;
-    /* Margin right */
+.button-border-top {
+    left: -2px;
+    top: -2px;
+    width: 0;
+    height: 2px;
 }
 
+.button-border-right {
+    right: -2px;
+    top: -2px;
+    width: 2px;
+    height: 0;
+}
 
+.button-border-bottom {
+    right: -2px;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+}
