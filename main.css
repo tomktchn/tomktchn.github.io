@@ -1,5 +1,5 @@
 html {
-    background-image: url(images/chris-barbalis-BLst6qvhXQM-unsplash.jpg);
+    background-image: url(/images/chris-barbalis-BLst6qvhXQM-unsplash.jpg);
     background-size: cover;
 }
 
@@ -12,7 +12,7 @@ html {
 
 @font-face {
     font-family: BaseFont;
-    src: url(fonts/04b03.ttf);
+    src: url(/fonts/04b03.ttf);
 }
 
 /* Font Styles */
