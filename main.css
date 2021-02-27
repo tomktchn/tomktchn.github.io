@@ -7,7 +7,7 @@ html {
     /* background-color: #454B66; */
     cursor: default;
     color: #777;
-    font-family: BaseFont;
+    font-family: BaseFont, "Helvetica Neue", sans-serif;
 }
 
 @font-face {
@@ -71,7 +71,7 @@ html {
 b {
     position: relative;
     display: block;
-    font-family: BaseFont;
+    font-family: BaseFont, "Helvetica Neue", sans-serif;
     line-height: 1.15em;
     margin-top: -1.15em;
     top: 2.3em;
