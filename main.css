@@ -16,19 +16,22 @@ h1 {
     margin-top: 4vw;
     margin-left: 4vw;
     margin-right: 4vw;
-    font-size: 28px;
+    /* font-size: 28px; */
+    font-size: 1.75vw
 }
 
 h2 {
     margin-left: 4vw;
     margin-right: 4vw;
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: 1.47vw
 }
 
 p {
     margin-left: 4vw;
     margin-right: 4vw;
-    font-size: 18px
+    /* font-size: 18px */
+    font-size: 1.15vw;
 }
 
 /* Page Dividers */
@@ -44,7 +47,6 @@ p {
 .landing-section {
     margin-top: 20vw;
     margin-right: 24vw;
-    margin-bottom: 20vw;
 }
 
 .home-page {
