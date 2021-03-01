@@ -45,18 +45,27 @@ p {
 }
 
 .landing-section {
-    margin-top: 20vw;
+    margin-top: 16vw;
     margin-right: 24vw;
+    position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 .home-page {
     background-image: url(/images/chris-barbalis-BLst6qvhXQM-unsplash.jpg);
     background-size: cover;
+    width: auto;
+    height: 100%;
 }
 
 .projects-page {
     background-image: url(images/fabrizio-conti-huSZwDNT4iM-unsplash.jpg);
     background-size: cover;
+    width: auto;
+    height: 100%;
 }
 
 /* Project Button */
@@ -87,7 +96,7 @@ b {
     line-height: 1.15em;
     margin-top: -1.15em;
     top: 2.3em;
-    font-size: 1.15vw;
+    font-size: 0.25vw;
     font-weight: 400;
     letter-spacing: 0.025em;
     opacity: 0.75;
